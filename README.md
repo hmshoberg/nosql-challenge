@@ -8,7 +8,7 @@ Use NoSQL_setup_starter.ipynb for this section of the challenge.
 
 Import the data provided in the establishments.json file from your Terminal. Name the database uk_food and the collection establishments. Copy the text you used to import your data from your Terminal to a markdown cell in your notebook.
 
-mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
+# mongoimport --type json -d uk_food -c establishments --drop --jsonArray establishments.json
 
 Within your notebook, import the libraries you need: PyMongo and Pretty Print (pprint).
 
